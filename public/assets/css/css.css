@@ -1,0 +1,76 @@
+.site-name a{
+  text-decoration: none;
+  color:black;
+}
+
+
+.container.vacancy_list{
+      width: 800px;
+}
+
+.vacancy_info{
+  padding: 20px;
+    border: 1px solid #e7e7e7;
+    position: relative;
+    margin-top: -1px;
+    font-size: 14px;
+    line-height: 1.571;
+    margin-bottom: 5px;
+}
+
+.vacancy_info .vacancy_row_header{
+  display: flex;
+  margin-bottom: 6px;
+}
+
+.vacancy_list .vacancy_title{
+  flex-basis: 100%;
+}
+
+.vacancy_list .vacancy_title a, .vacancy_list .vacanvy_salary{
+  font-size: 19px;
+  font-weight: 600;
+    text-decoration: none;
+}
+
+.vacancy_list .vacanvy_salary{
+      flex: 0 0 auto
+}
+
+.vacancy_list .vacancy_additional_info{
+    display: flex;
+    margin-bottom: 6px;
+}
+
+.vacancy_list .vacancy_additional_info .vac_add_info_wrap{
+  flex-basis: 100%
+  width:100%;
+}
+
+.vacancy_list .vac_add_info_wrap .info_row{
+  display: inline-flex;
+  width: 100%;
+  height: 17px;
+}
+
+.vacancy_list .vacancy_additional_info span,.vacancy_additional_info span a{
+  color:gray;
+  text-decoration: none;
+}
+
+.vacancy_list .vacancy_description{
+  margin-bottom: 6px;
+  font-size: 14px;
+line-height: 1.571;
+}
+
+.vacancy_page_info .vacancy_description{
+  margin-bottom: 15px;
+}
+
+div.tag_inline{
+  display: inline-block;
+  background: #e4e0e0;
+padding: 1px 10px 1px 10px;
+border: 1px solid #cac2c2;
+}
